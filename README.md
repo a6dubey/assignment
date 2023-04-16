@@ -1,34 +1,72 @@
-Introduction
-This is a simple Node.js web application that provides CRUD (Create, Read, Update, Delete) operations for customers. It uses Express.js as the web framework and MongoDB as the database. The app also includes validation using the Joi library.
+# Customer API
+ A RESTful API that will allow the frontend team to retrieve
+and update customer information.
 
-Prerequisites
-Before running the app, you need to have the following installed on your system:
+## About The Project
+A simple RESTful API for managing customers using Express and Mongoose.
 
-Node.js
-MongoDB
-Installation
-To install the app, follow these steps:
 
-Clone the repository or download the source code
-Navigate to the root directory of the app in your terminal
-Run npm install to install the dependencies
-Start the MongoDB server by running mongod in a separate terminal window
-Start the app by running npm start
-Usage
-Once the app is running, you can use a REST client such as Postman to interact with it. Here are the available routes:
+## Tasks :
+* ### Theme :
+  - My task is to build a RESTful API that will allow the frontend team to retrieve
+and update customer information. I have used Node.js and the Express.js
+framework to build the API.
+  
+* ### Required Routes :
+  - GET /api/customers → Retrieve all customers.
+  - POST /api/customers → Create a new customer.
+  - GET /api/customers/:id → Retrieve a customer by ID.
+  - PUT /api/customers/:id → update a customer by ID.
 
-GET /api/customers - Returns all customers in the database
-GET /api/customers/:id - Returns a single customer by ID
-POST /api/customers - Creates a new customer
-PUT /api/customers/:id - Updates a customer by ID
-To use these routes, send a request to the appropriate URL using the appropriate HTTP method (GET, POST, PUT), and include any necessary data in the request body or URL parameters.
+### Built With
+Here is the Technology Stack of this Application. which I have used to Built this Application.
+* MongoDB
+* Express
+* NodeJS
 
-Tests
-To run the tests, follow these steps:
+<!-- GETTING STARTED -->
+## Getting Started
+   * Clone this project
+   * Start by installing npm and mongoDB if you don't have them already.
+   * Run the Mongo Server.
 
-Navigate to the root directory of the app in your terminal
-Run npm test to run the tests
-The tests use the Mocha and Chai libraries. They test the app's functionality using mocked data and an in-memory MongoDB database.
+### Prerequisites
 
-Conclusion
-That's it! You now have a working Node.js web application that provides CRUD operations for customers using Express.js and MongoDB. 
+This is an example of how to list things you need to use the software and how to install them.
+* npm
+  ```sh
+  npm install npm@latest -g
+  ```
+
+### Installation
+
+1. Clone the repo
+   ```sh
+   git clone https://github.com/your_username_/Project-Name.git
+   ```
+2. Install NPM packages
+   ```sh
+   npm install
+   ```
+  
+
+
+<!-- API EndpointsONTRIBUTING -->
+## API Endpoints
+
+### GET /api/customers
+Retrieve all customers.
+
+### POST /api/customers
+Create a new customer.
+
+### GET /api/customers/:id
+Retrieve a customer by ID.
+
+### PUT /api/customers/:id
+Update an existing customer by ID.
+
+
+
+
+
