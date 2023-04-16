@@ -1,4 +1,4 @@
-# Live Deploy Link: https://plutopeassign.onrender.com/api/customers
+# Live Deploy Link: https://plutopeassignm.onrender.com/api/customers
 
 # Customer API
  This is a simple Node.js web application that provides CRUD (Create, Read, Update) operations for customers. It uses Express.js as the web framework and MongoDB as the database. The app also includes validation using the Joi library.
