@@ -1,6 +1,7 @@
+# Live Deploy Link: https://plutopeassign.onrender.com/api/customers
+
 # Customer API
- A RESTful API that will allow the frontend team to retrieve
-and update customer information.
+ This is a simple Node.js web application that provides CRUD (Create, Read, Update) operations for customers. It uses Express.js as the web framework and MongoDB as the database. The app also includes validation using the Joi library.
 
 ## About The Project
 A simple RESTful API for managing customers using Express and Mongoose.
